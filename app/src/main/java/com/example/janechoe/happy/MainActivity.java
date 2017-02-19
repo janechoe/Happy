@@ -95,6 +95,8 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.contributors) {
             //change activity to contributors activity
+            Intent contributorsIntent = new Intent(this, ContributorsActivity.class);
+            startActivity(contributorsIntent);
 
         } else if (id == R.id.resources) {
             //change activity to resources activity
