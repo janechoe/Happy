@@ -90,12 +90,12 @@ public class MainActivity extends AppCompatActivity
             startActivity(mainIntent);
         } else if (id == R.id.about) {
             //change activity to about activity
-            Intent aboutIntent = new Intent(this, AboutActivity.class);
+            Intent aboutIntent = new Intent(getApplicationContext(), AboutActivity.class);
             startActivity(aboutIntent);
 
         } else if (id == R.id.contributors) {
             //change activity to contributors activity
-            Intent contributorsIntent = new Intent(this, ContributorsActivity.class);
+            Intent contributorsIntent = new Intent(getApplicationContext(), ContributorsActivity.class);
             startActivity(contributorsIntent);
 
         } else if (id == R.id.resources) {
